@@ -1,8 +1,7 @@
 # Linker
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/linker`. To experiment with that code, run `bin/console` for an interactive prompt.
+Linker is a cross-browser jQuery [plugin](http://jquery.gr/linker/) by Michalis Tzikas & Vasilis Lolos. This is a great technique to transform urls to links. This is just a ruby wrapper to use it with Rails.
 
-TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
@@ -22,7 +21,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Put class "text" on your HTML wrapper link and all your links will be 
+<div class="text">www.jquery.gr/linker</div>
+
+## Usage
+
+Need to put (Optional) Settings like target, className, rel.
+
 
 ## Development
 
@@ -32,7 +37,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/linker. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/rahuldstiwari/linker. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License
