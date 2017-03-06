@@ -21,8 +21,15 @@ Or install it yourself as:
 
 ## Usage
 
-Put class "text" on your HTML wrapper link and all your links will be 
-<div class="text">www.jquery.gr/linker</div>
+Put class "linker" on your HTML wrapper link and all your urls will be converted into links.
+
+```html
+<pre>
+    <div class="linker">www.jquery.gr/linker</div>
+</pre>
+```
+
+
 
 ## Usage
 
