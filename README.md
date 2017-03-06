@@ -8,7 +8,7 @@ Linker is a cross-browser jQuery [plugin](http://jquery.gr/linker/) by Michalis 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'linker'
+gem 'linker', :git => 'git://github.com/rahuldstiwari/linker.git'
 ```
 
 And then execute:
